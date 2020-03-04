@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
             maps["type"] = "click"
             JPTrackingLog.setEvent(Event.DISPLAY_ACTION, maps)
         }
+
+        println("test commit 1")
     }
 
     override fun onResume() {
